@@ -1,0 +1,79 @@
+/* Classes  */
+a {
+  text-decoration: none;
+  color: #000;
+}
+.margin-5 {
+  margin-top: 15rem;
+  margin-left: 5rem;
+}
+
+.transparent-inputs {
+  background-color: transparent;
+  border-radius: 7px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.transparent-inputs::placeholder {
+  font-size: 14px;
+  font-weight: 200;
+  color: #ffffff8e;
+}
+
+.singup p {
+  padding-left: 20px;
+  color: #ffffff7a;
+}
+.singup a {
+  text-decoration: none;
+  color: #ffffff36;
+  margin: 10px;
+}
+.singup a:hover {
+  text-decoration: underline;
+  color: #c068e4;
+}
+/* start  */
+
+body {
+  background-image: url(../img/img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main .login {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.login form h3 {
+  color: #fff;
+}
+
+#existInput {
+  padding-left: 40px;
+  color: red;
+}
+
+#error {
+   padding-left: 40px;
+  color: red;
+}
+
+#username {
+  font-size: 72px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn-logout{
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}

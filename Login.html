@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <main class="vh-100 overflow-hidden">
+      <div class="container">
+        <div class="row margin-5">
+          <div class="form-container col-md-6 m-auto w-50">
+            <!-- Login -->
+            <div class="login w-75">
+              <!-- Start Form -->
+              <form>
+                <!-- header -->
+                <h3 class="p-4 text-center text-capitalize">
+                  Smart Login System
+                </h3>
+                <!-- end header -->
+                <div class="mb-3">
+                  <input
+                  required
+                    id="emailLoginInput"
+                    type="email"
+                    class="form-control m-auto w-75 transparent-inputs"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Email address"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    required
+                    id="passLoginInput"
+                    type="password"
+                    class="form-control m-auto w-75 transparent-inputs"
+                    id="exampleInputPassword1"
+                    placeholder="Password"
+                  />
+                </div>
+
+                <label id="error" hidden> Email or Password is Wrong</label>
+
+                <div class="mb-3 text-center">
+                  <!-- Inside the form element -->
+                  <button
+                    
+                    id="btnLogin"
+                    type="button"
+                    class="btn btn-light w-75 my-3"
+                  >
+                    Login
+                  </button>
+                </div>
+                <div class="singup mb-3">
+                  <p>
+                    Don't have an account? <a href="Register.html">Sign Up</a>
+                  </p>
+                </div>
+              </form>
+              <!-- End Form -->
+            </div>
+            <!-- End Login -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/login.js"></script>
+  </body>
+</html>

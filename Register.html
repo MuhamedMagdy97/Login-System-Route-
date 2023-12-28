@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <main class="vh-100 overflow-hidden">
+      <div class="container">
+        <div class="row margin-5">
+          <div class="form-container col-md-6 m-auto w-50">
+            <!-- Login -->
+            <div class="login w-75">
+              <!-- Start Form -->
+              <form>
+                <!-- header -->
+                <h3 class="p-4 text-center text-capitalize">Register</h3>
+                <!-- end header -->
+                <div class="mb-3">
+                  <input
+                    required
+                    id="nameRegInput"
+                    type="name"
+                    class="form-control m-auto w-75 transparent-inputs"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    required
+                    id="emailRegInput"
+                    type="email"
+                    class="form-control m-auto w-75 transparent-inputs"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Email address"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    required
+                    id="passRegInput"
+                    type="password"
+                    class="form-control m-auto w-75 transparent-inputs"
+                    id="exampleInputPassword1"
+                    placeholder="Password"
+                  />
+                </div>
+                <label id="existInput" hidden> Email is already Signed up</label>
+                <div class="mb-3 text-center">
+                  <button
+                    id="btnReg"
+                    type="submit"
+                    class="btn btn-light w-75 my-3"
+                  >
+                    Register
+                  </button>
+                </div>
+                <div class="singup mb-3">
+                  <p>
+                    have an account already? <a href="Login.html">Sign in</a>
+                  </p>
+                </div>
+              </form>
+              <!-- End Form -->
+            </div>
+            <!-- End Login -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
